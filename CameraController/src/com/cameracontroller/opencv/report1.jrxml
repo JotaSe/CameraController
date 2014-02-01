@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="288" pageHeight="432" columnWidth="248" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a2b5c9f8-b7cc-4aea-beaf-35275373e97f">
+	<property name="ireport.zoom" value="0.75"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="logo" class="Object" isForPrompting="false">
+		<parameterDescription><![CDATA[The letterhead image]]></parameterDescription>
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="392" splitType="Stretch">
+			<image>
+				<reportElement uuid="612942e6-2f25-49dc-ae22-9a52a5ba0a08" x="0" y="0" width="113" height="134"/>
+				<imageExpression><![CDATA["E:\\Programas\\RecruiterGame\\images\\1.png"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<summary>
+		<band height="18" splitType="Stretch"/>
+	</summary>
+</jasperReport>
